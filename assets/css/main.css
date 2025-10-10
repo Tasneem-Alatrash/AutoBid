@@ -57,7 +57,7 @@ a {
   background-color: var(--maincolor);
   color: #fff;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: var(--mainfont);
   padding: 12px 25px;
   border-radius: 5px;
@@ -74,5 +74,112 @@ a {
 @media screen and (max-width: 450px) {
   :root {
     font-size: 12px;
+  }
+}
+
+.Services {
+  padding: 75px 0 115px 0;
+  background: url(../img/Services/Services.webp) no-repeat center;
+}
+.Services .Services-text {
+  /* margin-bottom: 50px; */
+  padding: 35px 50px 0 15px;
+}
+.Services .Services-text p {
+  font-family: var(--mainfont);
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0;
+  color: var(--maincolor);
+}
+.Services .service-icon {
+  color: #9b9797;
+  font-size: 3.063rem;
+  height: 3.063rem;
+  font-weight: 900;
+  position: absolute;
+  top: 21%;
+  left: 5%;
+  opacity: 0.1;
+}
+.Services .Services-text h2 {
+  font-family: Nunito;
+  font-size: 2.125rem;
+  font-weight: 800;
+  line-height: 2.55rem;
+  color: #242424;
+  margin-bottom: 50px;
+}
+.Services .btn {
+  background-color: #fff;
+  color: #222;
+  border: 2px solid #222;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: var(--mainfont);
+  padding: 12px 30px;
+  border-radius: 5px;
+  margin-bottom: 21.739px;
+  transition: all 0.2s ease-in-out;
+}
+.Services .btn:hover {
+  background-color: var(--maincolor);
+  color: #fff;
+  border: none;
+}
+.Services .carousel {
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+}
+.Services .carousel-content {
+  padding: 30px 35px;
+}
+.Services .carousel-content h3 {
+  font-family: var(--mainfont);
+  font-size: 1.563rem;
+  font-weight: 800;
+  line-height: 35.7143px;
+  color: #242424;
+  margin-bottom: 20px;
+}
+.Services .carousel-content p {
+  font-family: var(--mainfont);
+  font-size: 0.938rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  color: #262626;
+  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.Services .service-content {
+  padding-bottom: 20px;
+}
+.Services .Service-img img {
+  width: 56px;
+  height: 56px;
+  border-radius: 5px;
+}
+.Services .Service-info h4 {
+  font-family: var(--mainfont);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 32px;
+  color: #242424;
+  margin-bottom: 5px;
+}
+.Services .Service-info p {
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  :root {
+    font-size: 14px;
+  }
+  .Services .Services-text {
+    text-align: center;
   }
 }
