@@ -1,5 +1,6 @@
 :root {
   --maincolor: #ff2800;
+  --secondcolor: #242424;
   --mainfont: "Nunito", sans-serif;
 }
 
@@ -108,7 +109,7 @@ a {
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 2.55rem;
-  color: #242424;
+  color: var(--secondcolor);
   margin-bottom: 50px;
 }
 .Services .btn {
@@ -140,7 +141,7 @@ a {
   font-size: 1.563rem;
   font-weight: 800;
   line-height: 35.7143px;
-  color: #242424;
+  color: var(--secondcolor);
   margin-bottom: 20px;
 }
 .Services .carousel-content p {
@@ -167,7 +168,7 @@ a {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 32px;
-  color: #242424;
+  color: var(--secondcolor);
   margin-bottom: 5px;
 }
 .Services .Service-info p {
@@ -200,7 +201,7 @@ a {
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 40.8px;
-  color: #242424;
+  color: var(--secondcolor);
 }
 .Latest_News .card {
   width: 27.292rem;
@@ -301,4 +302,43 @@ a {
   .Latest_News .card .card-image .author {
     display: none;
   }
+}
+
+.Register_as_Vendor {
+  background-color: #f7f7f7;
+  padding: 5px 15px;
+}
+.Register_as_Vendor .row {
+  padding: 32px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.Register_as_Vendor h2 {
+  font-family: var(--mainfont);
+  font-size: 1.125rem;
+  width: fit-content;
+  font-weight: 800;
+  line-height: 1.438rem;
+  color: var(--secondcolor);
+}
+
+.Register_as_Vendor a {
+  width: fit-content;
+}
+.Register_as_Vendor .btn {
+  background-color: var(--maincolor);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: var(--mainfont);
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: 2px solid var(--maincolor);
+  transition: all 0.2s ease-in-out;
+}
+.Register_as_Vendor .btn:hover {
+  background-color: #fff;
+  color: #222;
+  border: 2px solid #222;
 }
