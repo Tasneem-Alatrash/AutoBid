@@ -3,6 +3,10 @@
   --secondcolor: #242424;
   --mainfont: "Nunito", sans-serif;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 a {
   text-decoration: none;
@@ -236,6 +240,51 @@ ul li {
   .Services .Services-text {
     text-align: center;
   }
+}
+
+.subscribing {
+  background-color: var(--maincolor);
+  color: white;
+  padding: 90px 35px;
+
+  font-family: var(--mainfont);
+}
+.subscribing .subscribing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.subscribing p {
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 24px;
+}
+.subscribing h2 {
+  font-size: 2.125rem;
+  font-weight: 800;
+  line-height: 43px;
+  margin-bottom: 30px;
+}
+.subscribing form {
+  background-color: #fff;
+
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.subscribing form input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+.subscribing form button {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 43px;
+}
+.subscribing img {
+  left: 10%;
+  top: -155px;
+  height: 430px;
 }
 
 .Latest_News {
