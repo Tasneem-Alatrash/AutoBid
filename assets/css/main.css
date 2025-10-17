@@ -7,6 +7,59 @@
 a {
   text-decoration: none;
 }
+
+.about {
+  background-image: url(./../img/about/about-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  padding: 90px 15px 65px 15px;
+}
+.about .about-contents {
+  padding: 35px 50px 0 15px;
+}
+.about .about-top {
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-family: var(--mainfont);
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--maincolor);
+  margin: 0;
+}
+.about h2 {
+  font-family: var(--mainfont);
+  font-size: 2.125rem;
+  font-weight: 800;
+  line-height: 40.8px;
+  color: var(--secondcolor);
+}
+
+.about .about-content p,
+ul li {
+  font-family: var(--mainfont);
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--secondcolor);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.about .about-signature img {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    background-image: none;
+    background-color: #f2f2f2;
+  }
+}
+
 .Body-Type {
   padding: 95px 0;
 }
