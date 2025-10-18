@@ -267,8 +267,8 @@ ul li {
 }
 .subscribing form {
   background-color: #fff;
-
-  padding: 5px 10px;
+  padding: 5px;
+  max-width: 550px;
   border-radius: 10px;
 }
 .subscribing form input {
@@ -278,15 +278,21 @@ ul li {
 }
 .subscribing form button {
   width: fit-content;
+
   height: fit-content;
-  padding: 10px 43px;
+  padding: 0.625rem 2.688rem;
 }
 .subscribing img {
-  left: 10%;
+  left: 15%;
   top: -155px;
-  height: 430px;
+  height: 450px;
 }
 
+@media screen and (max-width: 768px) {
+  .subscribing img {
+    visibility: hidden;
+  }
+}
 .Latest_News {
   padding: 95px 15px 80px 15px;
 }
