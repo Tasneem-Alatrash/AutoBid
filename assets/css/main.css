@@ -64,6 +64,93 @@ ul li {
   }
 }
 
+.Works {
+  padding: 95px 40px 165px 40px;
+}
+.Works .work-content {
+  padding: 0 50px;
+}
+.Works p {
+  font-family: var(--mainfont);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 5px;
+
+  color: var(--maincolor);
+}
+.Works h2 {
+  font-family: var(--mainfont);
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 43px;
+  margin-bottom: 50px;
+  color: rgb(10, 10, 10);
+}
+
+.Works h3 {
+  font-family: var(--mainfont);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: var(--secondcolor);
+}
+.Works .Search {
+  font-weight: 400;
+  color: var(--secondcolor);
+}
+.Works .dotted {
+  width: 201.102px;
+  height: 78px;
+  padding: 0;
+}
+.Works .dotted-curve {
+  left: 370px;
+  top: 230px;
+}
+.Works .dotted-up {
+  right: 398px;
+  bottom: 95px;
+}
+@media screen and (max-width: 1246px) {
+  .Works .dotted {
+    width: 180px;
+  }
+  .Works .dotted-curve {
+    left: 310px;
+    top: 230px;
+  }
+  .Works .dotted-up {
+    right: 338px;
+    bottom: 95px;
+  }
+}
+@media screen and (max-width: 1084px) {
+  .Works .dotted {
+    width: 150px;
+  }
+  .Works .dotted-curve {
+    left: 300px;
+    top: 230px;
+  }
+  .Works .dotted-up {
+    right: 308px;
+    bottom: 95px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Works .dotted {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Works .work-content {
+    margin-bottom: 30px;
+  }
+}
+
 .New-Offers {
   background-color: #f2f2f2;
   padding-top: 30px;
@@ -71,6 +158,9 @@ ul li {
 .New-Offers .New-top {
   position: relative;
   padding-bottom: 30px;
+}
+.New-Offers .New-top .New-content {
+  padding-top: 20px;
 }
 .New-Offers .New-top h2 {
   font-family: var(--mainfont);
@@ -107,6 +197,7 @@ ul li {
   background-size: cover;
   background-position: center -50px;
 }
+
 .New-Offers .New-bottom p {
   font-family: var(--mainfont);
   font-size: 0.938rem;
@@ -177,6 +268,11 @@ ul li {
   }
   .New-Offers .New-bottom ul {
     text-align: start;
+  }
+}
+@media screen and (max-width: 767px) {
+  .New-Offers .New-top .New-content {
+    margin-bottom: 48px;
   }
 }
 .Body-Type {
