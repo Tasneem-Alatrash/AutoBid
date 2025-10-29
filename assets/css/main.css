@@ -6,19 +6,162 @@
 html,
 body {
   overflow-x: hidden;
+  font-family: var(--mainfont);
 }
 
 a {
   text-decoration: none;
 }
+
+.navbar {
+  padding: 0 35px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.49);
+}
+.header-top .nav-item {
+  border-right: 1px solid rgba(221, 221, 221, 0.49);
+  border-left: 1px solid rgba(221, 221, 221, 0.49);
+}
+header .header-top a {
+  color: #334141;
+  font-weight: 500;
+  font-size: 0.813rem;
+}
+header .header-top .form-search {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+header .header-top ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-botoom .navbar-brand {
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+.header-botoom .nav-item {
+  padding: 27px 17px;
+}
+.header-botoom .nav-item a {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 20px;
+  transition: all 0.3s ease-in-out;
+  color: #333333;
+}
+.header-botoom .nav-item a:hover {
+  color: var(--maincolor);
+  background: none;
+}
+.header-botoom .nav-item a svg {
+  fill: #333333;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-botoom .nav-item a:hover svg {
+  fill: var(--maincolor);
+}
+.header-botoom .navbar-brand img {
+  width: 120px;
+  height: 54px;
+}
+.header-botoom .dropdown-item {
+  padding: 10px;
+}
+.paltform-dropdown {
+  width: 1111px;
+  left: 260px;
+  padding: 0;
+}
+.paltform-dropdown h2 {
+  font-size: 1.375rem;
+  font-weight: 800;
+  line-height: 39px;
+  color: rgb(36, 36, 36);
+}
+.paltform-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.header-botoom .paltform-dropdown ul a {
+  color: #000;
+  font-weight: 600;
+  line-height: 2.5;
+  font-size: 0.875rem;
+}
+.header-botoom .paltform-dropdown ul a svg {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.btn-view,
+.btn-sell {
+  background-color: #ff2800;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: 2px solid var(--maincolor);
+  transition: all 0.2s ease-in-out;
+}
+.btn-view:hover {
+  border: 2px solid #fff;
+}
+.paltform-dropdown .dropdown-image {
+  background-image: url(/./assets/img/navbar/Platform-img.webp);
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+.paltform-dropdown .dropdown-image h2 {
+  margin-bottom: 0;
+}
+.paltform-dropdown .dropdown-image h2 a {
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 38px;
+  color: rgb(255, 255, 255);
+}
+.paltform-dropdown .dropdown-image p a {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}
+.paltform-dropdown .items {
+  padding: 20px 30px;
+}
+.navbar-expand-lg .navbar-nav .paltform-dropdown {
+  left: 260px;
+}
+.header-botoom .nav-item .dropdown-image a:hover {
+  color: #fff;
+}
+.btn-sell {
+  padding: 10px 30px;
+  margin-left: 10px;
+}
+.btn-sell:hover {
+  border: 2px solid #000;
+}
 .hero {
   background-image: url(./../img/hero/Hero-img.webp);
   background-repeat: no-repeat;
-  background-size: 122%;
+  background-size: cover;
   background-position: center;
-  padding: 11.875rem 2.188rem;
+  padding: 150px 35px;
+
   color: #fff;
-  font-family: var(--mainfont);
+}
+.hero .hero-content {
+  padding-top: 35px;
 }
 .hero h2 {
   font-size: 3.438rem;
@@ -52,7 +195,6 @@ a {
   color: #fff;
   font-weight: 800;
   font-size: 1rem;
-  font-family: var(--mainfont);
   padding: 12px 25px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -70,7 +212,6 @@ a {
   border: 2px solid #222;
   font-weight: 800;
   font-size: 1rem;
-  font-family: var(--mainfont);
   padding: 11px 30px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -82,6 +223,61 @@ a {
   color: #fff;
   border: 2px solid var(--maincolor);
 }
+
+.accordion,
+.accordion .accordion-item,
+.accordion .accordion-item .accordion-header,
+.accordion-flush > .accordion-item > .accordion-header .accordion-button,
+.accordion-flush > .accordion-item .accordion-button.collapsed {
+  border-radius: 10px;
+}
+.accordion-item {
+  padding: 35px;
+}
+.accordion-item .form-select {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.accordion-item label {
+  font-family: Nunito;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(36, 36, 36);
+}
+.btn-serach {
+  background-color: #ff2800;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: 2px solid var(--maincolor);
+  transition: all 0.2s ease-in-out;
+}
+.btn-serach:hover {
+  background-color: #fff;
+  color: #222;
+  border: 2px solid #222;
+}
+.accordion-button {
+  color: #222;
+  width: fit-content;
+  font-weight: 800;
+  font-size: 1.125rem;
+  padding: 0px 18px;
+  margin-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+.accordion-button:not(.collapsed) {
+  color: #ff2800;
+  background: none;
+  width: fit-content;
+  box-shadow: none;
+}
+
 .Auctions {
   padding: 90px 30px 125px;
 }
@@ -89,14 +285,12 @@ a {
   margin-bottom: 40px;
 }
 .Auctions .Auctions-nav h2 {
-  font-family: var(--mainfont);
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 40.8px;
   color: var(--secondcolor);
 }
 .Auctions .Auctions-nav .nav-link {
-  font-family: var(--mainfont);
   font-size: 1rem;
   font-weight: 700;
   line-height: 25px;
@@ -140,7 +334,6 @@ a {
 }
 
 .Auctions .card-body a {
-  font-family: var(--mainfont);
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 27px;
@@ -151,7 +344,6 @@ a {
   color: var(--maincolor);
 }
 .Auctions .card-body p {
-  font-family: var(--mainfont);
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 25px;
@@ -187,7 +379,6 @@ a {
 }
 
 .about p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 700;
   line-height: 24px;
@@ -195,7 +386,6 @@ a {
   margin: 0;
 }
 .about h2 {
-  font-family: var(--mainfont);
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 40.8px;
@@ -204,7 +394,6 @@ a {
 
 .about .about-content p,
 ul li {
-  font-family: var(--mainfont);
   font-weight: 400;
   line-height: 24px;
   color: var(--secondcolor);
@@ -229,7 +418,6 @@ ul li {
   padding: 0 50px;
 }
 .Works p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 700;
   line-height: 24px;
@@ -238,7 +426,6 @@ ul li {
   color: var(--maincolor);
 }
 .Works h2 {
-  font-family: var(--mainfont);
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 43px;
@@ -247,7 +434,6 @@ ul li {
 }
 
 .Works h3 {
-  font-family: var(--mainfont);
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 32px;
@@ -321,7 +507,6 @@ ul li {
   padding-top: 20px;
 }
 .New-Offers .New-top h2 {
-  font-family: var(--mainfont);
   font-size: 3.125rem;
   font-weight: 700;
   line-height: 43px;
@@ -333,7 +518,6 @@ ul li {
   color: var(--secondcolor);
 }
 .New-Offers .New-top p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 700;
   line-height: 24px;
@@ -357,14 +541,12 @@ ul li {
 }
 
 .New-Offers .New-bottom p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 700;
   line-height: 24px;
   color: var(--maincolor);
 }
 .New-Offers .New-bottom h2 {
-  font-family: var(--mainfont);
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 43px;
@@ -378,7 +560,6 @@ ul li {
   padding-left: 42px;
 }
 .New-Offers .New-bottom ul li {
-  font-family: Nunito;
   font-size: 0.938rem;
   font-weight: 400;
   line-height: 25px;
@@ -389,7 +570,6 @@ ul li {
   color: #fff;
   font-weight: 800;
   font-size: 1rem;
-  font-family: var(--mainfont);
   padding: 12px 25px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -407,7 +587,6 @@ ul li {
   border: 2px solid #222;
   font-weight: 800;
   font-size: 1rem;
-  font-family: var(--mainfont);
   padding: 12px 30px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -438,13 +617,11 @@ ul li {
 }
 .Body-Type p {
   color: var(--maincolor);
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 700;
   line-height: 24px;
 }
 .Body-Type h2 {
-  font-family: var(--mainfont);
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 43px;
@@ -452,7 +629,6 @@ ul li {
 }
 .Body-Type a h3 {
   font-size: 1.375rem;
-  font-family: var(--mainfont);
   font-weight: 800;
   line-height: 32px;
   color: #0c0c0c;
@@ -485,7 +661,6 @@ ul li {
   color: #fff;
   font-weight: 800;
   font-size: 1rem;
-  font-family: var(--mainfont);
   padding: 12px 25px;
   border-radius: 5px;
   border: 2px solid var(--maincolor);
@@ -514,7 +689,6 @@ ul li {
   padding: 35px 50px 0 15px;
 }
 .Services .Services-text p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 700;
   line-height: 24px;
@@ -545,7 +719,6 @@ ul li {
   border: 2px solid #222;
   font-weight: 800;
   font-size: 1rem;
-  font-family: var(--mainfont);
   padding: 12px 30px;
   border-radius: 5px;
   margin-bottom: 21.739px;
@@ -564,7 +737,6 @@ ul li {
   padding: 30px 35px;
 }
 .Services .carousel-content h3 {
-  font-family: var(--mainfont);
   font-size: 1.563rem;
   font-weight: 800;
   line-height: 35.7143px;
@@ -572,7 +744,6 @@ ul li {
   margin-bottom: 20px;
 }
 .Services .carousel-content p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-style: italic;
   font-weight: 400;
@@ -591,7 +762,6 @@ ul li {
   border-radius: 5px;
 }
 .Services .Service-info h4 {
-  font-family: var(--mainfont);
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 32px;
@@ -621,8 +791,6 @@ ul li {
   background-color: var(--maincolor);
   color: white;
   padding: 90px 35px;
-
-  font-family: var(--mainfont);
 }
 .subscribing .subscribing-content {
   display: flex;
@@ -675,7 +843,6 @@ ul li {
   padding: 95px 15px 80px 15px;
 }
 .Latest_News .Latest_Content p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 700;
   line-height: 24px;
@@ -683,7 +850,6 @@ ul li {
 }
 
 .Latest_News .Latest_Content h2 {
-  font-family: var(--mainfont);
   font-size: 2.125rem;
   font-weight: 800;
   line-height: 40.8px;
@@ -711,7 +877,6 @@ ul li {
   margin: 10px 0;
 }
 .Latest_News .card .card-title a {
-  font-family: var(--mainfont);
   font-size: 1.375rem;
   font-weight: 800;
   line-height: 29px;
@@ -723,7 +888,6 @@ ul li {
 }
 
 .Latest_News .card p {
-  font-family: var(--mainfont);
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 23px;
@@ -733,7 +897,6 @@ ul li {
   margin-bottom: 20px;
 }
 .Latest_News .card .Read_more {
-  font-family: var(--mainfont);
   font-size: 1rem;
   font-weight: 700;
   line-height: 22.8571px;
@@ -801,7 +964,6 @@ ul li {
   gap: 15px;
 }
 .Register_as_Vendor h2 {
-  font-family: var(--mainfont);
   font-size: 1.125rem;
   width: fit-content;
   font-weight: 800;
@@ -817,7 +979,6 @@ ul li {
   color: #fff;
   font-weight: 800;
   font-size: 1rem;
-  font-family: var(--mainfont);
   padding: 12px 25px;
   border-radius: 5px;
   border: 2px solid var(--maincolor);
@@ -862,7 +1023,6 @@ footer li {
 }
 footer a {
   color: #fff;
-  font-family: var(--mainfont);
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 20px;
@@ -883,7 +1043,6 @@ footer .footer-bottom {
   padding-bottom: 30px;
 }
 footer .footer-bottom p {
-  font-family: var(--mainfont);
   font-size: 0.938rem;
   font-weight: 400;
   line-height: 24px;
