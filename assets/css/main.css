@@ -151,6 +151,26 @@ header .header-top ul {
 .btn-sell:hover {
   border: 2px solid #000;
 }
+.header-botoom .taggler {
+  display: none;
+}
+@media screen and (max-width: 1140px) {
+  .header-botoom .collapse ul {
+    display: none;
+  }
+  .header-botoom .navbar .row {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header-top .right-side {
+    display: none;
+  }
+  .header-botoom .taggler {
+    display: block;
+  }
+}
+
 .hero {
   background-image: url(./../img/hero/Hero-img.webp);
   background-repeat: no-repeat;
