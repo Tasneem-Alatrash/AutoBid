@@ -1,0 +1,211 @@
+:root {
+  --maincolor: #ff2800;
+  --secondcolor: #242424;
+  --mainfont: "Nunito", sans-serif;
+}
+html,
+body {
+  font-family: var(--mainfont);
+}
+.Blog {
+  padding: 50px 35px;
+  background: #f2f2f2;
+}
+h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 39.6px;
+  color: rgb(36, 36, 36);
+}
+.News {
+  padding: 70px 0;
+}
+.News .card {
+  margin: 15px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 50px;
+}
+.News .card .card-img-top {
+  transition: all 0.3s ease-in-out;
+}
+.News .card .card-img-top:hover {
+  opacity: 0.9;
+}
+.News .card .card-body {
+  padding: 40px;
+}
+.News .card .card-body .card-title {
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 38px;
+  color: #222;
+  transition: all 0.3s ease-in-out;
+}
+.News .card .card-body .card-title:hover {
+  color: var(--maincolor);
+}
+.News .card .card-body .card-text {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  color: rgb(38, 38, 38);
+}
+.btn-Read {
+  background-color: var(--maincolor);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: 2px solid var(--maincolor);
+  transition: all 0.2s ease-in-out;
+}
+.btn-Read:hover {
+  border: 2px solid #000;
+}
+
+.News .article-detail-meta p,
+.News .article-detail-meta a {
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 18.5714px;
+  color: rgb(102, 102, 102);
+  transition: all 0.3s ease-in-out;
+}
+.News .article-detail-meta a svg {
+  fill: #666666;
+  transition: all 0.3s ease-in-out;
+}
+.News .article-detail-meta:hover a {
+  color: var(--maincolor);
+}
+.News .article-detail-meta:hover svg {
+  fill: var(--maincolor);
+}
+.News .pagination {
+  padding-left: 15px;
+}
+.News .pagination a {
+  background-color: var(--maincolor);
+  padding: 15px 20px;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.News .pagination .pagination-nm {
+  background-color: white;
+  color: #222;
+  transition: all 0.3s ease-in-out;
+}
+.News .pagination .pagination-nm:hover {
+  background-color: var(--maincolor);
+  color: white;
+}
+.News .right-side {
+  padding: 0 40px;
+}
+.News .right-side h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 38px;
+  color: rgb(36, 36, 36);
+}
+.line {
+  height: 2px;
+  margin-bottom: 0;
+}
+.search-blog {
+  margin-bottom: 60px;
+}
+.long {
+  background-color: #e6e6e6;
+  width: 100%;
+}
+.short {
+  height: 3px;
+  background-color: var(--maincolor);
+  width: 15%;
+}
+.search-blog input {
+  padding: 10px 20px;
+  border: 2px solid #e6e6e6;
+  border-radius: 5px;
+  width: 93%;
+  margin-top: 12px;
+}
+.News .Categories ul,
+.News .Archives ul {
+  list-style: none;
+  margin-top: 12px;
+  padding: 0;
+}
+.News .Categories ul li,
+.News .Archives ul li {
+  padding-bottom: 10px;
+}
+.News .Categories ul li a,
+.News .Archives ul li a {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(96, 96, 96);
+  transition: all 0.3s ease-in-out;
+}
+.News .Categories ul li a:hover,
+.News .Archives ul li a:hover {
+  color: var(--maincolor);
+}
+.News .Categories {
+  margin-bottom: 50px;
+}
+.News .blog-img {
+  margin-bottom: 50px;
+}
+.News .Recent-posts {
+  margin-bottom: 50px;
+}
+.News .Recent-posts img {
+  width: 65px;
+  height: 65px;
+  transition: all 0.3s ease-in-out;
+}
+.News .Recent-posts img:hover {
+  opacity: 0.9;
+}
+.News .Recent-posts h3 {
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 23px;
+  padding: 0 15px;
+  color: #222;
+}
+.News .Recent-posts h3 a {
+  transition: all 0.3s ease-in-out;
+}
+.News .Recent-posts h3 a:hover {
+  color: var(--maincolor);
+}
+.News .Recent-posts p {
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 0 15px;
+  color: rgb(109, 122, 131);
+}
+.News .Post-Tags {
+  margin-bottom: 40px;
+}
+.News .Post-Tags a {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(96, 96, 96);
+  transition: all 0.3s ease-in-out;
+}
+.News .Post-Tags a:hover {
+  color: var(--maincolor);
+}

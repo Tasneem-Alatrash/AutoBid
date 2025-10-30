@@ -100,7 +100,7 @@ header .header-top ul {
 }
 .btn-view,
 .btn-sell {
-  background-color: #ff2800;
+  background-color: var(--maincolor);
   color: #fff;
   font-weight: 800;
   font-size: 1rem;
