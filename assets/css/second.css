@@ -209,3 +209,78 @@ h1 {
 .News .Post-Tags a:hover {
   color: var(--maincolor);
 }
+.Touch-img {
+  position: relative;
+  margin-bottom: 40px;
+  background-image: url(../img/Touch/new-york-map-dark.webp);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  opacity: 0.6;
+}
+
+.Send-Message .message-content {
+  background-color: #fff;
+  top: -20rem;
+  margin-bottom: -10rem;
+}
+.Send-Message .left-side {
+  padding: 45px 70px 70px;
+}
+.Send-Message .left-side h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 39.6px;
+  margin-bottom: 45px;
+  color: var(--secondcolor);
+}
+.Send-Message .left-side label {
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(38, 38, 38);
+}
+.Send-Message .left-side input,
+.Send-Message .left-side textarea {
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  outline: none;
+  border: 1px solid rgba(36, 36, 36, 0.3);
+}
+.Send-Message .left-side input:focus,
+.Send-Message .left-side textarea:focus {
+  border-color: var(--maincolor);
+}
+.Send-Message .left-side .btn-send {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: var(--maincolor);
+  border: 2px solid var(--maincolor);
+}
+.Send-Message .left-side .btn-send:hover {
+  color: #222;
+  border-color: #222;
+  background: none;
+}
+.Send-Message .right-side {
+  background-color: #222;
+  color: #fff;
+  padding: 100px 53px;
+}
+.Send-Message .right-side h2 {
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 38px;
+  margin-top: 20px;
+}
+.Send-Message .right-side p {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+.Send-Message .right-side .item {
+  padding-bottom: 40px;
+  border-bottom: 1px dashed #fff;
+}
