@@ -170,7 +170,12 @@ header .header-top ul {
     display: block;
   }
 }
-
+.accordion-items {
+  padding: 10px 25px;
+}
+.accordion-items .accordion {
+  top: -4rem;
+}
 .hero {
   background-image: url(./../img/hero/Hero-img.webp);
   background-repeat: no-repeat;
