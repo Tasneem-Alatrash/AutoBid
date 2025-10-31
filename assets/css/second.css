@@ -289,19 +289,23 @@ h1 {
   padding-bottom: 40px;
   border-bottom: 1px dashed #fff;
 }
-.Account {
+.Account,
+.Auctions {
   padding: 50px 15px 40px;
   background-color: rgb(242, 242, 242);
 }
 
-.Account .account-title {
+.Account .account-title,
+.Auctions .Auctions-title {
   font-size: 1.875rem;
   font-weight: 800;
   line-height: 41px;
   color: var(--secondcolor);
 }
 .Account .breadcrumb .breadcrumb-item a,
-.Account .breadcrumb .breadcrumb-item {
+.Account .breadcrumb .breadcrumb-item,
+.Auctions .breadcrumb .breadcrumb-item a,
+.Auctions .breadcrumb .breadcrumb-item {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 17px;
@@ -378,4 +382,100 @@ h1 {
 }
 .Login-Register .Register .form-content a {
   color: var(--maincolor);
+}
+
+.Shop {
+  padding: 70px 0;
+}
+.Shop .left-side {
+  margin: 0 20px;
+  padding: 20px 25px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.Shop h2 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(36, 36, 36);
+}
+.Shop .Car a {
+  width: fit-content;
+}
+.Shop .accordion {
+  width: fit-content;
+}
+.Shop .accordion-item {
+  padding: 0;
+  width: fit-content;
+  border: none;
+}
+.Shop .accordion-item .accordion-header {
+  width: fit-content;
+}
+.Shop .Car ul {
+  list-style: none;
+  padding: 0;
+}
+.Shop .Car ul li {
+  border-bottom: 1px dashed #f0f0f0;
+}
+.Shop .Car ul li a,
+.Shop .Car ul li button {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.Shop .Car ul li a:hover {
+  color: var(--maincolor);
+}
+.Shop .accordion .accordion-body a {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.Shop .accordion .accordion-body a:hover {
+  color: var(--maincolor);
+}
+.Shop .Product ul {
+  list-style: none;
+  padding: 0;
+}
+.Shop .Product .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgb(66, 64, 53);
+}
+.Shop .Product .accordion-body {
+  padding-top: 27px;
+}
+.Shop .Product ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0px 20px;
+  margin-bottom: 10px;
+}
+.Shop .Product input[type="radio"] {
+  width: 22px;
+  height: 22px;
+  border-color: #dad7d1;
+}
+.Shop .Product label {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgb(38, 38, 38);
+}
+.Shop .Product .final-product {
+  border: none;
+}
+.Shop .shop-img img {
+  margin-top: 10px;
 }
