@@ -166,6 +166,14 @@ header .header-top ul {
   .header-top .right-side {
     display: none;
   }
+
+  .header-botoom .row {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .header-botoom .navbar-link {
+    display: none;
+  }
   .header-botoom .taggler {
     display: block;
   }
@@ -843,6 +851,11 @@ ul li {
   border: none;
   outline: none;
   padding: 10px 20px;
+}
+.subscribing form input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 .subscribing form button {
   width: fit-content;
