@@ -113,7 +113,7 @@ header .header-top ul {
   border: 2px solid #fff;
 }
 .paltform-dropdown .dropdown-image {
-  background-image: url(/./assets/img/navbar/Platform-img.webp);
+  background-image: url(../img/navbar/Platform-img.webp);
   background-size: cover;
   border-radius: 5px;
   background-position: center;
