@@ -98,6 +98,7 @@ header .header-top ul {
   width: 30px;
   height: 30px;
 }
+
 .btn-view,
 .btn-sell {
   background-color: var(--maincolor);
